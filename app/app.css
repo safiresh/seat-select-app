@@ -1,0 +1,49 @@
+/* app css stylesheet */
+
+.menu {
+    color: red;
+    padding-bottom: 20px;
+}
+
+.container {
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.theater-seat-container {
+    min-width: 1200px;
+}
+
+.theater-seat-holder {
+    width: 7.33%;
+    height: 7.33%;
+    padding: 0.5%;
+    display: inline-block;
+    line-height: 5em;
+}
+
+.theater-seat {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.seat-avail {
+    background: rgb(34, 127, 49);
+    cursor: pointer;
+}
+
+.seat-booked {
+    background: rgb(163, 21, 21);
+}
+
+.seat-inactive {
+    background: rgb(183, 172, 172);
+}
+
+.seat-tobook {
+    background: rgb(198, 172, 3);
+    cursor: pointer;
+}

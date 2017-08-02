@@ -1,0 +1,17 @@
+<div class="menu">
+    Pick Your Seat(s)
+</div>
+
+<div class="col-md-12 col-sm-12 col-xs-12 container">
+    <div class="theater-seat-container">
+        <div class="seat-row" ng-repeat="seatRow in seatMapper">
+            <div class="theater-seat-holder" ng-repeat="seat in seatRow">
+                <seat-selector seat="seat" un-book-seat="unBookSeat(seat.id)"
+                               book-seat="bookSeat(seat.id)"></seat-selector>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    You reserved {{selectedSeats.length}} seat(s) {{selectedSeats.join(',')}}
+</div>
